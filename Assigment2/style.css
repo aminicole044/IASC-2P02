@@ -1,0 +1,89 @@
+body{
+
+    margin: 0 auto;
+width: 80%;
+font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px
+}
+
+h1,h2{
+    font-size: center;
+}
+
+h1{
+    font-size:48px
+}
+
+h2{
+    font-size:36px
+}
+
+.canvas-container{
+    margin: 0 auto;
+    text-align: center;
+}
+.canvas-container p{
+    font-size:20px;
+   color: rbg(199,130,2);
+}
+canvas{
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul > li {
+    display: inline-black;
+font: size 24px;
+margin-top: 0px;
+margin-right: 0px;
+}
+
+#pink{
+    color :red;
+}
+
+#blue{
+    color :pink;
+}
+
+#black{
+    color :black;
+}
+
+.lil-gui.root{
+width: 50%;
+margin-left: 25%;
+border-radius: 10px;
+}
+    
+.lil-gui .name {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+}
+
+#lil-gui-name-1 {
+    color: red;
+}
+
+#lil-gui-name-2 {
+    color: pink;
+}
+
+#lil-gui-name-3 {
+    color: rgb(179, 179, 179);
+}
+
+#lil-gui-name-5 {
+    color:aqua;
+}
+
+#lil-gui-name-6 {
+    color:blue;
+}
+
+#lil-gui-name-7 {
+    color: rgb(157, 255, 112);
+}
