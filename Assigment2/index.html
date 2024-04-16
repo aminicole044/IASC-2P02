@@ -1,75 +1,71 @@
+<!DOCTYPE html> 
+<head>  
+<title>  
 
-<!DOCTYPE html>
-<head> 
+Data Visualization Assigment 
 
-<title> 
-Data Visualization Assigment
-</title> 
+</title>  
 
     <!-- css -->
+    <link rel="stylesheet" href="style.css"> 
+    <!-- three.js importmap --> 
+    <script type="importmap"> 
 
-    <link rel="stylesheet" href="style.css">
+        { 
+            "imports": { 
+                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js", 
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js", 
+                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.1/dist/lil-gui.esm.js" 
+            } 
+        } 
 
-    <!-- three.js importmap -->
+    </script> 
+    <!-- three.js scene --> 
+<script src="script.js" type="module"></script> 
+<script src="script2.js" type="module"></script> 
 
-    <script type="importmap">
-        {
-            "imports": {
-                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js",
-                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js",
-                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.1/dist/lil-gui.esm.js"
-            }
-        }
-    </script>
+</head> 
+<body> 
+    <h1>The Little Prince</h1> 
+    <h2>by Antoine de Saint-Exupery</h2>
+    <h3>Amelia Leppek</h3> 
 
-    <!-- three.js scene -->
+    <p>The story starts off from the narrator's point of view explaining how they’re misunderstood by the grownups. The narrator crashes their plane in the Sahara desert. The narrator is very badly hurt and doesn't know where to go, they don't know if they can survive. They meet a little prince on the planet. Since the narrator is originally from earth they think this planet is called Asteroid B-612, but is actually called Asteroid 325. They become close friends with the little prince and learn more about him. The narrator learned about how the little prince took care of the planet. The little prince takes care of the planet by not letting too many baobabs grow. One day, a strange plant called a rose sprouted from the ground, and the prince fell in love with it. After the rose broke his heart, the little prince went on to travel to different planets to forget his sadness. </p> 
 
-<script src="script.js" type="module"></script>
+    <p>I chose this text because this was one of my favorite stories as a child. I read the original book in French when I studied it in grade school. Each filter term is a description of the different things that are associated with the rose. First is the rose itself, the next one is its thorns, and last is the emotion of love. The information that we can gather is how important this rose was to the prince. We can tell how he was in love with her, but she did something that made the prince sad and not trust her anymore, hence the talk about thorns. Visually it communicates this by the colours that represent the rose, thorns, and the emotion she's caused. One insight we can gather is how suddenly the rose appears in the story. We can see from the visualization how rose is mentioned more in the beginning of the story, while love is important throughout the whole story. Another insight is the animation represents the changes that the rose caused in the story by appearing so suddenly. That's why the visualization is more compacted into one area, instead of being spread out like the second visualization.
+    </p> 
 
+    <div class="canvas-container"> 
+        <h2>Things about the Rose</h2> 
+      <!--  
+      <ul> 
+            <li id="pink"> Cupboard</li> 
+            <li id="blue">Hat</li> 
+            <li id="black">Broom</li> 
+        </ul>/// 
+    --> 
+<canvas class="webgl"></canvas> 
+<div id="parent1"></div> 
+<p>Left click and drag to roatate. Right click and drag to move. Scroll to zoom. Click animate bubbles to see them disapper and reapper.</p> 
+    </div> 
+    <p>The shapes are different in the two visualizations. The colours are different to represent the different things that are mentioned in the story. Lastly, there are more objects in the second visualization because it talks more about the other characters in the story, compared to the first visualization focusing on just the rose.
+    </p> 
 
-<script src="script2.js" type="module"></script>
+    <p>In the second visualization the different filter terms represent the different characters in the story. The different characters are a reflection of the different people that the prince meets and associates with. I chose to make the object a sphere so that it would look like a planet, since the different characters that the prince meets are on different planets. The information we can gather visually is the importance of each character depending on the chapter. It explains to us how the story focuses on the prince and his journey traveling to different planets. One insight we can take from this visualization is that each character that the prince meets, is mainly focused on only in that specific chapter. Another insight we can take is how the little prince is the main focus on the story, as he appears in every chapter. The last thing we can take away is that while the narrator isn't as focussed on as the prince, they are mentioned at least a few times in almost every chapter of the story.
+    </p> 
 
+    <div class="canvas-container"> 
 
-</head>
-<body>
+<h2>The different characters in the story</h2> 
 
-    <h1>Book Title</h1>
+<canvas class="webgl2"></canvas> 
 
-    <h2>Amelia Leppek</h2>
+<div id="parent2"></div> 
 
-    <p>owkqanfoc</p>
+<p>Left click and drag to roatate. Right click and drag to move. Scroll to zoom.</p> 
 
-    <p>sonvgovlk</p>
+    </div> 
+    <p>To improve my visualization in the future I wanted to learn to make the shapes in my first visualization appear more like roses since that was my main focus of the first visualization, but I was unsuccessful. Another thing I'd like to improve on is animation to maybe help my second visualization with its effect of being more interactive.</p> 
 
-    <div class="canvas-container">
-        <h2>Objects In Harry Potter</h2>
-      <!-- 
-      <ul>
-            <li id="pink"> Cupboard</li>
-            <li id="blue">Hat</li>
-            <li id="black">Broom</li>
-        </ul>///
-    -->
-<canvas class="webgl"></canvas>
-<div id="parent1"></div>
-<p>Left click and drag to roatate. Right click and drag to move. Scroll to zoom.</p>
-    </div>
-
-    <p>kwjnegfjk</p>
-
-    <p>skjebegvjkgs</p>
-
-
-    <div class="canvas-container">
-<h2>Antagonists In Harry Potter</h2>
-<canvas class="webgl2"></canvas>
-<div id="parent2"></div>
-<p>Left click and drag to roatate. Right click and drag to move. Scroll to zoom.</p>
-    </div>
-
-
-    <p>ksjenbvfjkrnsvgklr</p>
-
-
-    <canvas class="webgl"></canvas>
-    </body>
+    <canvas class="webgl"></canvas> 
+    </body> 

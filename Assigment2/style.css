@@ -1,89 +1,121 @@
-body{
-
-    margin: 0 auto;
-width: 80%;
-font-family: Arial, Arial, Helvetica, sans-serif;
-}
-
-p{
-    font-size: 20px
-}
-
-h1,h2{
-    font-size: center;
-}
-
-h1{
-    font-size:48px
-}
-
-h2{
-    font-size:36px
-}
-
-.canvas-container{
-    margin: 0 auto;
-    text-align: center;
-}
-.canvas-container p{
-    font-size:20px;
-   color: rbg(199,130,2);
-}
-canvas{
-    border-radius: 10px 10px 0px 0px;
-}
-
-ul > li {
-    display: inline-black;
-font: size 24px;
-margin-top: 0px;
-margin-right: 0px;
-}
-
-#pink{
-    color :red;
-}
-
-#blue{
-    color :pink;
-}
-
-#black{
-    color :black;
-}
-
-.lil-gui.root{
-width: 50%;
-margin-left: 25%;
-border-radius: 10px;
-}
+body{ 
+    background-color: rgb(151, 214, 157); 
+     margin: 0 auto; 
+     text-align: center; 
+    width: 80%; 
+    font-family: Arial, Arial, Helvetica, sans-serif; 
+    }
     
-.lil-gui .name {
-    font-size: 14px;
-    font-weight: bold;
-    padding: 5px 5px 5px 5px;
-}
+    p{ 
+        font-size: 20px 
+    } 
+    
+    h1,h2, h3{ 
+        font-size: center; 
+        color: rgb(22, 78, 31);
+    } 
+    
+    h1{ 
+        font-size:48px 
+    } 
+    
+    h2{ 
+        font-size:36px 
+    } 
+    
+    h3{ 
+        font-size:32px 
+    } 
 
-#lil-gui-name-1 {
-    color: red;
-}
+    .canvas-container{ 
+        margin: 0 auto; 
+        text-align: center; 
+    } 
+    
+    .canvas-container p{ 
+        font-size:20px; 
+       color: rbg(199,130,2); 
+    } 
+    
+    canvas{ 
+        border-radius: 10px 10px 0px 0px; 
+    } 
+    
+    ul > li { 
+        display: inline-black; 
+    font: size 24px; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    } 
+    
+    #pink{ 
+        color :red; 
+    } 
+    
+    #blue{ 
+        color :pink; 
+    } 
+    
+    #black{ 
+        color :black; 
+    } 
+    
+    .lil-gui.root{ 
+    width: 50%; 
+    margin-left: 25%; 
+    border-radius: 10px; 
+    } 
+    
+    .lil-gui .name { 
+        font-size: 14px; 
+        font-weight: bold; 
+        padding: 5px 5px 5px 5px; 
+    } 
 
-#lil-gui-name-2 {
-    color: pink;
-}
+    #lil-gui-name-1 { 
+        color: red; 
+    } 
+    
+    #lil-gui-name-2 { 
+        color: rgb(27, 224, 70); 
+    } 
+    
+    #lil-gui-name-3 { 
+        color: rgb(211, 137, 180); 
+    } 
+    
+    #lil-gui-name-4 { 
+        color: rgb(222, 6, 241); 
+    } 
 
-#lil-gui-name-3 {
-    color: rgb(179, 179, 179);
-}
+    #lil-gui-name-5 { 
+        color:rgb(131, 49, 43); 
+    } 
+    
+    #lil-gui-name-6 { 
+        color:rgb(203, 214, 44); 
+    } 
+    
+    #lil-gui-name-7 { 
+        color: green; 
+    } 
 
-#lil-gui-name-5 {
-    color:aqua;
-}
+    #lil-gui-name-8 { 
+        color:blue; 
+    } 
+    
+    #lil-gui-name-9 { 
+        color: rgb(197, 115, 7); 
+    } 
 
-#lil-gui-name-6 {
-    color:blue;
-}
+    #lil-gui-name-10 { 
+        color:crimson; 
+    } 
+    
+    #lil-gui-name-11 { 
+        color: rgb(30, 214, 247); 
+    } 
 
-#lil-gui-name-7 {
-    color: rgb(157, 255, 112);
-}
+    #lil-gui-name-12 { 
+        color: rgb(131, 30, 247); 
+    } 
